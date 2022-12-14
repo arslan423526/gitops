@@ -10,5 +10,5 @@ spec:
   filterTags:
     pattern: 'staging-[a-fA-F0-9]+'
   policy:
-    numerical:
-      order: asc
+    semver:
+      range: '>=1.0.0'
