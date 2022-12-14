@@ -9,6 +9,3 @@ spec:
     name: changelog
   filterTags:
     pattern: '^[a-zA-Z0-9-]+'
-    policy:
-      alphabetical:
-        order: asc
