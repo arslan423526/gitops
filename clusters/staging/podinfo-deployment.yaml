@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: changelog
-          image: ghcr.io/ablestar/changelog:staging-8f41234447b818183173ec8a2acefc2294360e3d-1671025960 # {"$imagepolicy": "flux-system:changelog"}
+          image: ghcr.io/ablestar/changelog:staging-8f41234447b818183173ec8a2acefc2294360e3d-2671025960 # {"$imagepolicy": "flux-system:changelog"}
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
