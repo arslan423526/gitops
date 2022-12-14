@@ -9,4 +9,4 @@ spec:
     name: changelog
   policy:
     semver:
-      range: '>=1.0.0'
+      range: 'staging-*'
