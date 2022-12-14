@@ -8,7 +8,7 @@ spec:
   imageRepositoryRef:
     name: changelog
   filterTags:
-    pattern: '^staging-[a-fA-F0-9]'
+    pattern: 'staging-[a-fA-F0-9]+'
   policy:
     numerical:
       order: asc
