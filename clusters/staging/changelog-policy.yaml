@@ -7,8 +7,6 @@ metadata:
 spec:
   imageRepositoryRef:
     name: changelog
-  filterTags:
-    pattern: 'staging-[a-fA-F0-9]+'
   policy:
     semver:
       range: '>=1.0.0'
