@@ -20,3 +20,6 @@ spec:
             - name: http
               containerPort: 9898
               protocol: TCP
+
+      imagePullSecrets:
+        - name: regcred
